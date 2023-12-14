@@ -1,5 +1,5 @@
 Made to practive DOM events and CSS.
-Simple score-board for ping-pong.
+Simple score-board for ping-pong. Design and functionality inspiration from https://www.udemy.com/course/the-web-developer-bootcamp/, scorekeeper codealong
 
 Features:
 1. Score updates based on which buttons are clicked.
