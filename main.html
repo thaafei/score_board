@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="fill">
+                <img src="Pong.png" alt="ping-pong-paddle">
+            </div>
+            <div class="title">
+                <h1>Ping Pong Scorekeeper</h1>
+            </div>
+            <div class="scorekeeper">
+                <div id="scoreboard">
+                    <p id="score"><span id="p1-score">0</span> to <span id="p2-score">0</span></p>
+                    <p>Use button below to change score</p>
+                    <label for="age">Playing to:</label>
+                    <select name="match" id="match" required>
+                        <option value="3">3</option>
+                        <option value="5">5</option>
+                        <option value="7">7</option>
+                    </select>
+                </div>
+                <div class="buttons-container">
+                    <button class='button' id="p1-button">Player 1</button>
+                    <button class='button' id="p2-button">Player 2</button>
+                    <button class='button' id="reset">Reset</button>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
